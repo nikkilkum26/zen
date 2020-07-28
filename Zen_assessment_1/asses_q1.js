@@ -41,11 +41,11 @@ let a= userInput[0].split(" ").map(Number);
 let b= userInput[1].split(" ").map(Number);
 let arr=[];
 
-let temp=2;
+let rows=2;
 for (let i=0;i<a[1];i++){
     
-    arr[i]=[userInput[temp].split(" ").map(Number)];
-    temp++;
+    arr[i]=[userInput[rows].split(" ").map(Number)];
+    rows++;
     
 }
  
