@@ -1,9 +1,9 @@
 let anon=[1,2,3,4,5];
 
 ((anon)=>{
-    let b=[];
+    let a=[];
     for(let i=0;i<anon.length;i++){
-        b[i]= anon[i]*anon[i];
+        a[i]= anon[i]*anon[i];
     }
-    console.log(b);
+    console.log(a);
 })(anon);
