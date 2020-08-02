@@ -2,9 +2,7 @@ function callAPI(content, url, headrer){
     var request = new XMLHttpRequest();
     
     request.open('GET', url, true);
-    // if(headrer){
-    //     request.setRequestHeader('origin','G:/bharani/ZenClass/week2/Day 1/api')
-    // }
+   
     request.onload = function() {
         if (this.readyState == 4 && this.status == 200){
             var data = JSON.parse(this.response);
