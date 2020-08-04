@@ -1,0 +1,85 @@
+body{
+    padding: 100px 380px;
+    align-content: center;
+}
+
+.head{
+    background-color: #1f2835;
+    display: block;
+    height: fit-content;
+}
+.heading{
+    color: tomato;
+    font-size: 80px;
+}
+.setImage{
+    padding: 100px 0 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.head2{
+    color: white;
+    display: inline;
+    font: arial;
+    font-size: 40px; 
+   }
+.column {
+    flex: 50%;
+    height: 350px;
+}
+
+
+.colorB{
+    background-color:rgb(50, 157, 206);
+    color: white;
+    font-size: 30px;
+}
+
+.colorR{
+    background-color: tomato;
+    color: white;
+    font-size: 30px;
+}
+.colorY{
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+}
+
+.setPic {
+    border:white ;
+    border-style: groove;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.border{
+    border-style: groove ;
+    width: 100px; height: 100px;
+}
+.content{
+    padding: 20px;
+    display: inline;
+    font-size: 25px;
+    color:white;
+    font:arial;
+
+}
+
+.fontB{
+    font-size: 35px;    
+}
+
+.fontM{
+    font-size: 35px;
+}
+
+.fontS{
+    font-size: 20px;
+}
+
+
+
+
