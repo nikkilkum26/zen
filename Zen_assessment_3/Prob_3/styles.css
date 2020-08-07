@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet');
+
+body{
+    width: 45%;
+    font-family: 'Antic Slab', serif;
+   
+
+
+}
+
+table{
+    margin-left: 15%;
+    
+}
+
+td{
+   
+    border: 10px solid white;
+    padding-right: 15px;
+}
+img{
+    padding-right: 0.35%;
+}
+button{
+    float: right;
+}
+
+.costing{
+    font-size: large;
+}
+
+button{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 1px;
+
+}
+
