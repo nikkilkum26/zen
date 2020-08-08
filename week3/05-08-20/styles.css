@@ -1,0 +1,115 @@
+body{
+    padding: 10px 240px;
+    align-content: center;
+    height: 200%;
+}
+
+.head{
+    display: block;
+    width: 850px;
+    height: 500px;
+    
+}
+.font{
+    font-family: "Times New Roman", Times, serif;
+}
+.common{
+    color: white;
+    height: 270px;
+    border: 2px dotted white;
+    font-size: 40px;
+    border-top-right-radius: 8%;
+    padding: 100px;
+    padding-top: 70px;
+    border-top-left-radius: 8%;
+}
+.setProperties{
+    z-index: 1;
+    display: block;
+    width: 848px;
+    height: 500px;
+    padding: 50px 100px 0 100px;
+}
+.text{
+    transform: rotate(0deg) skew(5deg);
+    text-emphasis-color: white;         
+
+}
+
+.setProperties, .sub-head{
+    border: none;
+    border-top-right-radius: 8%;
+    border-top-left-radius: 8%;
+    background-color: wheat;
+    top: 200px;
+  
+}
+.sub-head{
+    border: 1px dashed white;
+    display: block; 
+    width: 850px;
+    height: 300px;
+    transform: skewY(-5deg);
+    color: white;
+    margin: 50px 500px 0 50px;
+}
+
+.skew{
+    border:1px dashed white;
+    transform:skewY(-5deg);
+    width: 1049px;
+    background-color: purple;
+    
+}
+.skew2{
+    
+    transform: skewY(-9deg);
+    position: relative;
+    bottom: 100px;
+    height: 500px;
+}
+
+.heading{
+    position: relative;
+    left: 330px;
+    top:20px;
+    font-size: 40px;
+    background-color: rgb(185, 142, 61);
+    display: inline;
+    padding: 10px;
+}
+
+
+.content{
+    transform: rotate(5deg);
+}
+
+
+
+.skew2 .content{
+    transform: rotate(9deg);
+    color: whitesmoke;
+}
+
+
+.footer{
+    background-color: rgb(150, 146, 146) !important;
+    border-radius: 0%  !important ;
+    border-top: none !important;
+    border-bottom-left-radius: 8% !important;
+    border-bottom-right-radius: 8% !important;
+    z-index:1;
+    position: relative;
+    bottom: 200px;
+    transform: rotate(0deg) ;
+}
+
+.footer .content{
+    transform: rotate(0deg);
+    
+}
+
+
+
+
+
