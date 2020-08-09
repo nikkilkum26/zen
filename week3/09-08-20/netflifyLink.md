@@ -1,1 +1,1 @@
-coming soon..
+https://nikkil-calc.netlify.app/
