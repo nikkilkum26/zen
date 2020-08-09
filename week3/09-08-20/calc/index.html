@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+
+</head>
+<body >
+    <script src="script.js"></script>
+    <div class="bg"><div class="heading" ><h3>Calculator</h3></div>
+    <div class="main">
+        <form name="form">
+            <input  class="textview" name="textview" id=>
+                
+        </form>
+        <table>
+            <tr>
+                <td><input class="btn" type="button" value="C" onclick="cl()"></td>
+                <td><input class="btn" type="button" value="<" onclick="back()"></td>
+                <td><input class="btn" type="button" value="/" onclick="insert(value)"></td>
+                <td><input class="btn"  type="button" value="X" onclick="insert(value)"></td>
+
+            </tr>
+            <tr>
+                <td><input class="btn" type="button" value="7" onclick="insert(value)"></td>
+                <td><input class="btn" type="button" value="8" onclick="insert(value)"></td>
+                <td><input class="btn" type="button" value="9" onclick="insert(value)"></td>
+                <td><input class="btn" type="button" value="-" onclick="insert(value)"></td>
+
+            </tr>
+            <tr>
+                <td><input class="btn" type="button" value="4" onclick="insert(value)"></td>
+                <td><input class="btn" type="button" value="5" onclick="insert(value)"></td>
+                <td><input class="btn" type="button" value="6" onclick="insert(value)"></td>
+                <td ><input class="btn" type="button" value="+" onclick="insert(value)"></td>
+
+            </tr>
+            <tr>
+                <td><input class="btn" type="button" value="1" onclick="insert(value)"></td>
+                <td><input class="btn" type="button" value="2" onclick="insert(value)"></td>
+                <td><input class="btn" type="button" value="3" onclick="insert(value)"></td>
+                <td rowspan=5><input class="btn" type="button" style="height:107" value="=" onclick="equal()"></td>
+
+            </tr>
+            <tr>
+                <td colspan=2><input class="btn" type="button" style="width:106" value="0" onclick="insert(value)"></td>
+                <td><input class="btn" type="button" value="." onclick="insert(value)"></td>
+                
+
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
