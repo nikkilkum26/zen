@@ -1,0 +1,27 @@
+.container{
+    
+  padding-top:20px;
+   text-align:center;
+    background-color: #9e8fb2;
+    background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%);
+     margin-top:50px; height: 500px;
+
+}
+.input-elem {
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+  }
+
+  .btn {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(106, 187, 106);
+    border-color: #eefeee;
+    border: 1px solid;
+    font-size: 18px;
+  }
