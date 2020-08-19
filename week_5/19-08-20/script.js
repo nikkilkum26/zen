@@ -6,7 +6,6 @@ async function restCountries () {
     try {
         var c = document.createElement("div");
         c.setAttribute('class','container');
-        // c.setAttribute('class','text-center')
 
         var r = document.createElement("div");
         r.setAttribute('class','row');
