@@ -1,0 +1,40 @@
+h2{
+    text-align: center;
+    color: rgb(243, 239, 239);
+    padding-top: 10px;
+}
+body{
+    background-color: rgba(25, 45, 46, 0.808);
+}
+
+.card-header {
+    background-color: black;
+}
+
+.skew {
+    background: rgb(243, 239, 239);
+    background: linear-gradient(90deg, rgb(243, 239, 239), rgba(25, 45, 46, 0.808));
+    display: inline-block;
+    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.list {
+    background-color: transparent;
+    border: none;
+    padding: 2.5px;
+}
+
+img {
+    height: 250;
+    width: 250;
+}
+
+.btn {
+    background: linear-gradient(90deg, rgb(243, 239, 239), rgba(25, 45, 46, 0.808));
+    display: inline;
+   
+   
+}
