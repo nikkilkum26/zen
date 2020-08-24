@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<script>
+    let main_div =document.createElement('div');
+    main_div.setAttribute('class','container');
+
+    
+    let chunkk= document.createElement('div');
+    chunkk.setAttribute('id',"ch");
+    
+    
+    let reducee = document.createElement('div'); 
+    reducee.setAttribute('id','re');
+    
+     
+    let filterr = document.createElement('div');
+        filterr.setAttribute('id','fl');
+    
+    
+    let findd = document.createElement('div');
+        findd.setAttribute('id','fi');
+    
+
+    let summ =document.createElement('div');
+    summ.setAttribute('id','su');
+    
+
+    main_div.append(chunkk,reducee,filterr,findd,summ);    
+    document.body.append(main_div);
+</script>
+<script src="script.js"></script>
+<script>
+    function getData(){
+        let c= document.getElementById('ch');
+        let para= chunk([1,2,3,4,5],2);
+         c.innerHTML=`<p><b> Chunk :</b> ${JSON.stringify(para)}<p>`;
+   
+        let r= document.getElementById('re');
+        let parameters= reduce([4,7,2,1,7]);
+        r.innerHTML=`<p><b> reduce :</b> ${JSON.stringify(parameters)}<p>`;
+   
+        let fil=document.getElementById('fl');
+
+        let para1= filter([1,4,6,7,8,3,5,11]); 
+
+        fil.innerHTML=`<p><b> Filter :</b> ${JSON.stringify(para1)}<p>`;
+   
+        let fin= document.getElementById('fi');
+        let para2= find([0,2,0,6,0,7]);    
+        fin.innerHTML=`<p><b> Filter :</b> ${JSON.stringify(para2)}<p>`;
+   
+        let s=document.getElementById('su');
+        let para3= sum([1,2,4,5,8,9]);
+        s.innerHTML= `<p><b> Sum :</b> ${JSON.stringify(para3)}<p>`;
+
+        }
+
+        getData();
+
+
+</script>
+
+</body>
+</html>
