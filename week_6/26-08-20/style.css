@@ -1,0 +1,19 @@
+#customColor{
+    background-color: silver !important;
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 450px;
+    
+    }   
+
+#placeframe{
+    position: absolute;
+    top: 318px;
+    left: 590px;
+    width: 240px;
+    height: 128px;
+}    
