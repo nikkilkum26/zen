@@ -1,0 +1,151 @@
+> use petShop
+switched to db petShop
+> show collections
+Owners
+pet
+> db.pet.insertMany([
+...     {
+...         "pet": "dog",
+...         "name": "abc",
+...         "age": "1",
+...         "color": "brown"
+...     },
+...     {
+...         "pet": "cat",
+...         "name": "hgh",
+...         "age": "1",
+...         "color": "White"
+...     },
+...     {
+...         "pet": "dog",
+...         "name": "dgg",
+...         "age": "1",
+...         "color": "black"
+...     }
+... ])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("5f5e63237bc8ef69d503fc15"),
+                ObjectId("5f5e63237bc8ef69d503fc16"),
+                ObjectId("5f5e63237bc8ef69d503fc17")
+        ]
+}
+> db.Owners.insertMany([
+...     {
+...         "OwnerName":"name 1",
+...         "MobileNumber":"65475654765",
+...         "Address":"chennai"
+...
+...     },
+...     {
+...         "OwnerName":"name 2",
+...         "MobileNumber":"935466377373",
+...         "Address":"coimbatore"
+...
+...     },
+...     {
+...         "OwnerName":"name 3",
+...         "MobileNumber":"678939388",
+...         "Address":"salem"
+...
+...     }
+... ])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("5f5e63aa7bc8ef69d503fc18"),
+                ObjectId("5f5e63aa7bc8ef69d503fc19"),
+                ObjectId("5f5e63aa7bc8ef69d503fc1a")
+        ]
+}
+> db.createCollection("Employee")
+{ "ok" : 1 }
+> db.Employee.insertMany([
+...     {
+...         "Name":"Employee 1",
+...         "MobileNumber":"789878789",
+...         "Address":"chennai"
+...
+...     },
+...     {
+...         "Name":"Employee 2",
+...         "MobileNumber":"07687979879",
+...         "Address":"coimbatore"
+...
+...     },
+...     {
+...         "Name":"Employee 3",
+...         "MobileNumber":"94576454357",
+...         "Address":"chennai"
+...
+...     }
+... ])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("5f5e64427bc8ef69d503fc1b"),
+                ObjectId("5f5e64427bc8ef69d503fc1c"),
+                ObjectId("5f5e64427bc8ef69d503fc1d")
+        ]
+}
+> db.pet.find().pretty()
+{
+        "_id" : ObjectId("5f5e63237bc8ef69d503fc15"),
+        "pet" : "dog",
+        "name" : "abc",
+        "age" : "1",
+        "color" : "brown"
+}
+{
+        "_id" : ObjectId("5f5e63237bc8ef69d503fc16"),
+        "pet" : "cat",
+        "name" : "hgh",
+        "age" : "1",
+        "color" : "White"
+}
+{
+        "_id" : ObjectId("5f5e63237bc8ef69d503fc17"),
+        "pet" : "dog",
+        "name" : "dgg",
+        "age" : "1",
+        "color" : "black"
+}
+> db.Owners.find().pretty()
+{
+        "_id" : ObjectId("5f5e63aa7bc8ef69d503fc18"),
+        "OwnerName" : "name 1",
+        "MobileNumber" : "65475654765",
+        "Address" : "chennai"
+}
+{
+        "_id" : ObjectId("5f5e63aa7bc8ef69d503fc19"),
+        "OwnerName" : "name 2",
+        "MobileNumber" : "935466377373",
+        "Address" : "coimbatore"
+}
+{
+        "_id" : ObjectId("5f5e63aa7bc8ef69d503fc1a"),
+        "OwnerName" : "name 3",
+        "MobileNumber" : "678939388",
+        "Address" : "salem"
+}
+> db.Employee.find().pretty()
+{
+        "_id" : ObjectId("5f5e64427bc8ef69d503fc1b"),
+        "Name" : "Employee 1",
+        "MobileNumber" : "789878789",
+        "Address" : "chennai"
+}
+{
+        "_id" : ObjectId("5f5e64427bc8ef69d503fc1c"),
+        "Name" : "Employee 2",
+        "MobileNumber" : "07687979879",
+        "Address" : "coimbatore"
+}
+{
+        "_id" : ObjectId("5f5e64427bc8ef69d503fc1d"),
+        "Name" : "Employee 3",
+        "MobileNumber" : "94576454357",
+        "Address" : "chennai"
+}
